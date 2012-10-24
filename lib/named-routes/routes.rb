@@ -1,6 +1,6 @@
 module NamedRoutes
   class Routes
-    class_inheritable_accessor :host, :prefix
+    class_attribute :host, :prefix
 
     module Definition
       extend NamedRoutes::Concern
